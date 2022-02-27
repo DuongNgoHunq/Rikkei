@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+.header-top{
+    width: 100%;
+    height: 31px;
+    background-color: #353535;
+    line-height: 31px;
+    color: #ffffff;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.headerTopLeft{
+    margin-left: 70px;
+    width: 250px;
+    height: 20px;
+    display: flex;
+    line-height: 31px;
+    font-size: 12px;
+}
+.headerTopLeft span{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+.hotline{
+    color: #ffffff;;
+}
+  /* mouse over link */
+.hotline:hover{
+    color: #ed1c24;
+    text-decoration: none;
+}
+
+.headerTopRight{
+    width: 320px;
+    line-height: 31px;
+    margin-left: 653px;
+}
+.menuHeaderTop{
+    display: flex;
+    list-style: none;
+}
+.menuHeaderTop li{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.menuHeaderTop li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12.8px;
+}
+.menuHeaderTop li a:hover{
+    color: #ed1c24;
+}
+/* HeaderInner*/
+.headerInner{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 70px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-bottom: 15px;
+} 
+.menuInner li a:hover{
+    color: #ffffff;
+    border-bottom: #ed1c24 solid 3px;
+}
+#collapsibleNavbar{
+    margin-left: 270px;
+}
+.navbar-brand{
+    margin-left: 65px;
+}
+.headerInner .navbar {
+    width: 100%;
+    background-color: #020202;
+    font-size: 14.4px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 30px;
+    height: 70px;
+    padding-bottom: 20px;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid #ed1c24;
+}
+.carousel-indicators{
+    list-style: circle;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel .btn{
+      border-radius: 0;
+  }
+.fbm{
+    padding-top: 200px;
+    margin-left: 1270px;
+}
+/* ListTypeProduct */
+.content{
+    background-color: #f2f2f2;
+}
+.listTypeProduct{
+    text-align: center;
+    background-color: aliceblue;
+}
+.hotProducts{
+    margin: auto;
+    padding-top: 30px;
+    width: 1200px;
+  
+}
+.hotProducts .navbar a{
+    font-size: 16px;
+    color: #7b7b7b;
+    padding: 20px;
+    font-weight: bold;
+}
+.hotProducts .navbar a:hover{
+    color: #323232;
+}
+.listProduct{
+    display: flex;
+}
+.listProduct div{
+    margin: 0 10px;
+    background-color: white;
+}
+.listProduct p{
+    padding: 0px 20px;
+}
+.listProduct a{
+    font-size: 14.4px;
+    color: #1c1c1c;
+    margin: 1.44px 0px;
+    text-decoration: none;
+}
+.listProduct a:hover {
+    color: red;
+    text-decoration: none;
+}
+.listProduct span{
+    font-weight: bold;
+    font-size: 14.4px;
+    color: #111111;
+}
+.listProduct div:hover{
+    box-shadow: 7px 7px 12px #323232 ;
+}
+
+
+.detailProducts{
+    margin: 30px 0px;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.towRow img{
+    /* height: 650px;  */
+    margin: 10px 0px;
+    width:100%;
+    height:650px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+.oneRow img{
+    /* height: 650px;  */
+    height:calc(325px - 10px);
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0px;
+    cursor: pointer;
+    display: block;
+}
+.oneRow h2{
+    padding-top: 15px ;
+}
+#Zoom-In img{  
+    transform: scale(1); 
+    transition: 0.3s ease-in-out;
+}
+#Zoom-In:hover img{
+    transform: scale(1.1); 
+}
+.banner3{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 0;
+    background-color: #f2f2f2;
+}
+.imgBanner3{
+    background-image: url("./images/banner3.jpg");
+    width: 100%;
+    height: 400px;
+}
+.imgBackground{
+    background-image: url("./images/news2-bg.jpg");
+    width: 100%;
+    height: 700px;
+}
+.news{
+    padding: 30px 60px;
+}
+.AchievementImages{
+    width: 90%;
+    margin: 0 auto;
+}
+.listAchievement div{
+    padding: 10px 10px;
+}
+.listAchievement .boxText{
+    width: 379px;
+    height: 150px;
+    background-color: white;
+}
+.boxText .title{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: bold;
+    font-size: 16px;
+}
+.boxText span{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.boxText span:hover{
+    color: #ed1c24;
+}
+.bg-section{
+    background-image: url("./images/6.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 530px;
+}
+.textImage{
+    padding-top: 10px;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.bg-section h1{
+    padding-top: 80px;
+    font-size: 30px;
+}
+.bg-section p{
+    font-size: 20px;
+    border-top: 2px solid #ed1c24;
+}
+.footerInner{
+    width: 97%;
+    height: 300px;
+    background-color: #323232;
+    margin: auto;
+}
+.footerInner ul{
+    list-style-type: none;
+    padding: 20px 30px;
+    color:#f2f2f2 ;
+}
+.footerInner ul p{
+    padding-left: 5px; 
+    font-weight: bold;
+}
+.footerInner ul li{
+    padding: 5px 5px;
+    color: #999;
+}
+.footerInner ul li a{
+    color: #999;
+}
+.footerInner ul li a:hover{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 48px;
+    background-color: #020202;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 48px;
+}
